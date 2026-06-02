@@ -2,110 +2,110 @@
 
 ## 🚀 Phase 0: Setup
 
-- [ ] Create project folder
-- [ ] Create files:
+- [X] Create project folder
+- [X] Create files:
 
-  - [ ] `index.html`
-  - [ ] `style.css`
-  - [ ] `script.js`
-- [ ] Link CSS & JS in HTML
-- [ ] Initialize Git repo
-- [ ] Make first commit ("init calculator project")
+  - [X] `index.html`
+  - [X] `style.css`
+  - [X] `script.js`
+- [X] Link CSS & JS in HTML
+- [X] Initialize Git repo
+- [X] Make first commit ("init calculator project")
 
 ---
 
 ## 🧠 Phase 1: Core Math Logic (Console First)
 
-- [ ] Create functions:
+- [X] Create functions:
 
-  - [ ] `add(a, b)`
-  - [ ] `subtract(a, b)`
-  - [ ] `multiply(a, b)`
-  - [ ] `divide(a, b)`
+  - [X] `add(a, b)`
+  - [X] `subtract(a, b)`
+  - [X] `multiply(a, b)`
+  - [X] `divide(a, b)`
 
-    - [ ] Handle divide by 0
+    - [X] Handle divide by 0
 
-- [ ] Test all functions in browser console
+- [X] Test all functions in browser console
 
-- [ ] Create:
+- [X] Create:
 
-  - [ ] `operate(operator, a, b)`
+  - [X] `operate(operator, a, b)`
 
-    - [ ] Calls correct math function
+    - [X] Calls correct math function
 
 ---
 
 ## 🧱 Phase 2: Basic HTML Layout
 
-- [ ] Create calculator container
+- [X] Create calculator container
 
-- [ ] Add display area
+- [X] Add display area
 
-  - [ ] Show dummy number (e.g., 0)
+  - [X] Show dummy number (e.g., 0)
 
-- [ ] Add buttons:
+- [X] Add buttons:
 
-  - [ ] Digits (0–9)
-  - [ ] Operators (+ − × ÷)
-  - [ ] Equals (=)
-  - [ ] Clear (C)
+  - [X] Digits (0–9)
+  - [X] Operators (+ − × ÷)
+  - [X] Equals (=)
+  - [X] Clear (C)
 
-- [ ] Add basic layout styling (grid or flex)
+- [X] Add basic layout styling (grid or flex)
 
 ---
 
 ## 🎨 Phase 3: Styling (Keep it Clean)
 
-- [ ] Style calculator body
-- [ ] Style buttons (hover + active states)
-- [ ] Style display (big + readable)
-- [ ] Prevent overflow in display
+- [X] Style calculator body
+- [X] Style buttons (hover + active states)
+- [X] Style display (big + readable)
+- [X] Prevent overflow in display
 
 ---
 
 ## ⚙️ Phase 4: Input Handling
 
-- [ ] Create variables:
+- [X] Create variables:
 
-  - [ ] `firstNumber`
-  - [ ] `secondNumber`
-  - [ ] `operator`
-  - [ ] `shouldResetDisplay` (important!)
+  - [X] `firstNumber`
+  - [X] `secondNumber`
+  - [X] `operator`
+  - [X] `shouldResetDisplay` (important!)
 
-- [ ] Add event listeners to:
+- [X] Add event listeners to:
 
-  - [ ] Number buttons
-  - [ ] Operator buttons
-  - [ ] Equals button
-  - [ ] Clear button
+  - [X] Number buttons
+  - [X] Operator buttons
+  - [X] Equals button
+  - [X] Clear button
 
-- [ ] Update display when numbers are clicked
+- [X] Update display when numbers are clicked
 
 ---
 
 ## 🧩 Phase 5: Make It Actually Work
 
-- [ ] Store first number when operator is clicked
-- [ ] Store operator
-- [ ] Store second number when typing continues
-- [ ] On `=`:
+- [X] Store first number when operator is clicked
+- [X] Store operator
+- [X] Store second number when typing continues
+- [X] On `=`:
 
-  - [ ] Call `operate()`
-  - [ ] Display result
+  - [X] Call `operate()`
+  - [X] Display result
 
 ---
 
 ## 🧠 Phase 6: Calculator Logic (THE HARD PART)
 
-- [ ] If operator is pressed again:
+- [X] If operator is pressed again:
 
-  - [ ] Evaluate current expression first
-  - [ ] Use result as new `firstNumber`
+  - [X] Evaluate current expression first
+  - [X] Use result as new `firstNumber`
 
-- [ ] Prevent:
+- [X] Prevent:
 
-  - [ ] Running calculation without full input
-  - [ ] Double operator bugs
+  - [X] Running calculation without full input
+  - [X] Double operator bugs
 
 - [ ] Ensure:
 
@@ -115,29 +115,29 @@
 
 ## ⚠️ Phase 7: Edge Cases / Gotchas
 
-- [ ] Divide by 0:
+- [X] Divide by 0:
 
-  - [ ] Show error message (funny/snarky 😏)
+  - [X] Show error message (funny/snarky 😏)
 
-- [ ] Pressing "=" too early:
+- [X] Pressing "=" too early:
 
-  - [ ] Do nothing or handle safely
+  - [X] Do nothing or handle safely
 
-- [ ] Clear button:
+- [X] Clear button:
 
-  - [ ] Reset ALL values
+  - [X] Reset ALL values
 
-- [ ] After result:
+- [X] After result:
 
-  - [ ] Typing number starts fresh (not append)
+  - [X] Typing number starts fresh (not append)
 
-- [ ] Consecutive operators:
+- [X] Consecutive operators:
 
-  - [ ] Replace operator instead of calculating
+  - [X] Replace operator instead of calculating
 
-- [ ] Long decimals:
+- [X] Long decimals:
 
-  - [ ] Round result (e.g., `toFixed()`)
+  - [X] Round result (e.g., `toFixed()`)
 
 ---
 
@@ -163,28 +163,28 @@
 
 ## 🧪 Phase 9: Testing
 
-- [ ] Test flows:
+- [X] Test flows:
 
-  - [ ] `12 + 7 = 19`
-  - [ ] `12 + 7 - 1 = 18`
-  - [ ] Multiple operations chain
+  - [X] `12 + 7 = 19`
+  - [X] `12 + 7 - 1 = 18`
+  - [X] Multiple operations chain
 
-- [ ] Test edge cases:
+- [X] Test edge cases:
 
-  - [ ] Spam operators
-  - [ ] Divide by 0
-  - [ ] Long numbers
-  - [ ] Decimal input
+  - [X] Spam operators
+  - [X] Divide by 0
+  - [X] Long numbers
+  - [X] Decimal input
 
 ---
 
 ## 📦 Phase 10: Polish & Finish
 
-- [ ] Clean code (rename variables, organize functions)
-- [ ] Add comments (only where needed)
-- [ ] Final UI tweaks
-- [ ] Commit final version
-- [ ] Push to GitHub 🚀
+- [X] Clean code (rename variables, organize functions)
+- [X] Add comments (only where needed)
+- [X] Final UI tweaks
+- [X] Commit final version
+- [X] Push to GitHub 🚀
 
 ---
 
@@ -199,9 +199,9 @@
 
 ## 🏁 DONE WHEN
 
-- [ ] All buttons work
-- [ ] Logic is solid (no weird bugs)
-- [ ] UI looks decent
-- [ ] You understand HOW it works
+- [X] All buttons work
+- [X] Logic is solid (no weird bugs)
+- [X] UI looks decent
+- [X] You understand HOW it works
 
 🔥 Congrats. You just built a real app.
